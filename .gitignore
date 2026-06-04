@@ -28,6 +28,17 @@ __pycache__/
 web.archive.org/
 urls.txt
 
+# Old Wayback/packaging artifacts (not part of live site)
+deploy/
+site/
+interlabscing-godaddy-deploy.zip
+assets/
+manifest.webmanifest
+RECOVERY_STATUS.md
+TEST_SERVER.md
+rebuild_static_site.py
+scripts/
+
 # Local server and runtime files
 *.pid
 *.seed

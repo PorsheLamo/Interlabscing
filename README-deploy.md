@@ -11,6 +11,31 @@ This repo contains the recovered static website for `interlabscing.com`.
   - `manifest.webmanifest`
   - `assets/`
 
+## GitHub Pages option
+
+This repository is ready for GitHub Pages. The custom domain is configured via `CNAME`.
+
+1. Create a GitHub repo if you have not already.
+2. Add the GitHub remote to this repository:
+   ```bash
+git remote add origin https://github.com/<username>/<repo>.git
+```
+3. Push the `gh-pages` branch:
+   ```bash
+git push -u origin gh-pages
+```
+4. In the repository settings on GitHub, enable Pages and choose the `gh-pages` branch as the source.
+
+For the custom domain, set GoDaddy DNS:
+- A records for `interlabscing.com` to:
+  - `185.199.108.153`
+  - `185.199.109.153`
+  - `185.199.110.153`
+  - `185.199.111.153`
+- `www` CNAME to `<username>.github.io.`
+
+Then GitHub Pages will serve `https://interlabscing.com/`.
+
 ## How to deploy
 
 1. Switch to the `deploy` branch if needed:

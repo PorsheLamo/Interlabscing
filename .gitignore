@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+
+# VS Code
+.vscode/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Temporary files
+*.swp
+*~
+*.tmp
+*.bak
+
+# Archive crawl artifacts
+web.archive.org/
+urls.txt
+
+# Local server and runtime files
+*.pid
+*.seed
+
+# Ignore GitHub metadata files if present
+.github/
